@@ -1,6 +1,40 @@
+.navbar{
+    max-width: 1440px;
+    height: 118px;
+    background-color: 
+rgba(32, 32, 32, 1);
+}
+.head {
+
+width: 1440px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+background-image: url("../images/bg.jpg");
+background-size: 1250px;
+height: 782px;
+color: white;
+width: 1440px;
+text-align: center;
+padding: 180px 20px;
+}
 h1{
-   font-family: 'Playfair Display', serif;
+   font-family: 'Roboto', sans-serif;
+   font-size: 72px;
+   font-weight: 700;
+   color: rgba(255, 255, 255, 1);
+   
+}
+h3 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+  
 }
 p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
 }
