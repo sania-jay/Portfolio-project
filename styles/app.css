@@ -28,6 +28,7 @@ body{
 }
 .head {
 background-image: url("../images/bg.jpg");
+background-repeat: repeat-y;
 background-position:  center;
 height: 900px;
 width: 100%;
