@@ -178,7 +178,6 @@ padding: 20px;
 @media(max-width: 960px) {
     body {
         max-width: 100%;
-        margin: 0 auto;
         padding: 0;
     }
     .navbar {
@@ -191,6 +190,33 @@ padding: 20px;
     h1 {
         font-size: 50px;
     }
+    h2 {
+        font-size: 38px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    h6 {
+        margin-top: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    p {
+        font-size: 18px;
+        text-align: wrap;
+        line-height: 1;
+    }
+    .btn-branding,
+     .btn-branding-about  {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .camera {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
    .navbar-brand{
     margin-left: -80px;
 }
@@ -201,6 +227,7 @@ padding: 20px;
 .contact-icon { 
     width: 18px;
     height: 15px;
+  
 }
 .contact-icon2, 
 .contact-icon3 {
