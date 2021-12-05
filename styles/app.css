@@ -9,8 +9,23 @@ rgba(32, 32, 32, 1);
     
     color: var(--branding-color);
 }
+footer {
+    color:rgba(255, 255, 255, 1)
+    max-width: 100%;   
+    margin-top: 40px;
+}
+.footer {
+    background-color: #282323;
+    max-width: 100%;
+    padding: 20px 20px 20px 50px;
+    margin: 0 0 0 0; 
+    font-size: 24px;
+}
+.copyrights {
+font-size: 16px;
+padding-left: 20px;
+}
 .about-page {
-
     margin: 0 40px;
 }
 .navbar{
@@ -28,9 +43,7 @@ rgba(32, 32, 32, 1);
 }
 #navbarNav {
     justify-content: flex-end;
-    width: 100%;
-    height: 19px;
-   
+    width: 100%;   
 }
 .hero {
 background-image: url("../images/bg.jpg");
@@ -67,8 +80,7 @@ h3 {
 h6 {
     color: rgba(246, 82, 130, 1);
     font-size: 18px;
-    line-height: 21.09px;
-    
+    line-height: 21.09px;   
 }
 .contact-page-heading {
     margin: 70px 0 120px 0 ;
@@ -80,7 +92,6 @@ p{
     font-weight: 400;
     color: var(--branding-color);   
 }
-
 .btn-branding {
 border: 1px solid var(--branding-color);
 background-color: var(--branding-color);
@@ -113,7 +124,6 @@ flex-direction: row;
 align-items: flex-start;
 padding: 10px;
 }
-
 .about-image {
 width: 700px;
 height: 650px;
@@ -128,16 +138,18 @@ margin-left: -50px;
     font-weight: normal;
     margin-bottom: 50px;
 }
-.social-links a{
+.social-links{
     margin-right: 20px;
     color: var(--branding-color);
     font-size: 18px;
+    margin: 20px;
 }
 .about-content-camera {
     width: 70px;
     height: 40.57px;
     margin-right: 30px;
     background-color: 
+    display: ;
 }
 .camera {
     background-color: rgba(45, 39, 39, 1);;
@@ -153,14 +165,16 @@ padding: 20px;
     line-height: 16px;
     font-weight: 700;
     font-family: font-family: var(var(--default-font-family));
-    
 }
 .contact-icon,
 .contact-icon2, 
 .contact-icon3  { 
    font-weight: 400;
 }
-
+.gallery-content {
+    margin: 100px 30px 0px 30px;
+    padding-bottom: 100px;
+}
 @media(max-width: 960px) {
     body {
         max-width: 100%;
