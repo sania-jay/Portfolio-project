@@ -105,7 +105,7 @@ line-height: 17px;
 font-family: font-family: 'Montserrat', sans-serif;
 }
 .btn-branding-about{
- border: 1px solid var(--branding-color);
+border: 1px solid var(--branding-color);
 background-color: var(--branding-color);
 color: rgba(39, 33, 66, 1);
 margin-top: 48px;
@@ -117,6 +117,11 @@ font-family: font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 font-size: 14px;
 line-height: 17px;
+}
+.button-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+
 }
 .row {
 display: flex;
